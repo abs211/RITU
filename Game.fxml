@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="447.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameController">
+   <children>
+      <AnchorPane layoutX="-108.0" layoutY="-267.0" prefHeight="710.0" prefWidth="549.0">
+         <children>
+            <ImageView fitHeight="490.0" fitWidth="448.0" layoutX="108.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@RITU2.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="PlayButton" layoutX="293.0" layoutY="654.0" mnemonicParsing="false" onAction="#letsPlay" prefHeight="31.0" prefWidth="80.0" text="PLAY" />
+            <Label layoutX="242.0" layoutY="526.0" text="Welcome To" textFill="#e1db32">
+               <font>
+                  <Font name="Baskerville Old Face" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="328.0" layoutY="619.0" text="{Spring Edition}" textFill="#fffff6">
+               <font>
+                  <Font name="Baskerville Old Face" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
